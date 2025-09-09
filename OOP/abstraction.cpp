@@ -3,7 +3,7 @@
 using namespace std;
 
 class Employee {
-protected:
+private:
     string name;
     int yearsAffiliated;
     int rating;
