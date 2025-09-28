@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-class tollBooth {
+class TollBooth {
     private:
         unsigned int carCount;
         double moneyCollected;
     public:
         // constructor
-        tollBooth() : carCount(0), moneyCollected(0) {} ;
+        TollBooth() : carCount(0), moneyCollected(0) {} ;
 
         void payingCar() {
             carCount++;
@@ -26,7 +26,7 @@ class tollBooth {
 };
 
 int main () {
-    tollBooth obj;
+    TollBooth obj;
     char userChoice = ' ';
     cout << "Welcome to the toll booth" <<endl ;
     cout << "-------------------------" <<endl;
