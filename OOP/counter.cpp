@@ -11,7 +11,6 @@ class Counter {
     void setCount(int c) {
         if (c >= 0) count = c;
         else cout << "count cant be less than 0" << endl;
-        
     }
 
     void increment() {
