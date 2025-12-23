@@ -6,6 +6,5 @@ int main() {
     cout << "enter a paragraph" << endl ;
     cin.get(str, SIZE, '!');
     cout << str;
-
     return 0;
 }
